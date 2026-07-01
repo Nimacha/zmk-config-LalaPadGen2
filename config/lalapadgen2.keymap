@@ -87,9 +87,9 @@
             display-name = "Default";
             bindings = <
 &kp Q              &kp L      &kp U         &kp R           &kp T                                                       &kp F      &kp W     &kp R              &kp Y           &kp P
-&kp E              &kp I      &kp A         &kp O           &kp MINUS                                                   &kp K      &kp T     &kp S              &kp H           &mt2 EQUAL MINUS
+&mt LCTRL E        &kp I      &kp A         &kp O           &kp MINUS                                                   &kp K      &kp T     &kp N              &kp S           &kp H
 &mt2 LEFT_SHIFT Z  &kp X      &kp C         &kp V           &kp SEMICOLON                                               &kp G      &kp D     &kp M              &kp J           &kp B
-&kp LCTRL          &kp LWIN   &kp LEFT_ALT  &lt 1 LEFT_ALT  &kp LANG2      &mt LEFT_SHIFT SPACE  &mt RIGHT_SHIFT SPACE  &kp LANG1  &mo 2     &kp RIGHT_CONTROL  &kp LANGUAGE_1  &kp BACKSLASH
+&kp LCTRL          &kp LWIN   &kp LEFT_ALT  &lt 1 LEFT_ALT  &kp LANG2      &mt LEFT_SHIFT SPACE  &mt RIGHT_SHIFT SPACE  &kp LANG1  &mo 2     &kp RIGHT_CONTROL  &kp LANGUAGE_1  &kp RIGHT_SHIFT
                    &none      &kp RIGHT     &kp DOWN        &kp LEFT       &kp UP                &kp UP                 &kp LEFT   &kp DOWN  &kp RIGHT          &none
 &mkp LCLK          &mkp RCLK  &mkp MCLK                                                                                                      &mkp LCLK          &mkp RCLK       &mkp MCLK
 &mkp MB4           &mkp MB5   &kp LG(TAB)   &kp LG(D)       &kp LCTRL                                                   &mkp MB4   &mkp MB5  &kp LG(TAB)        &kp LG(D)       &kp LCTRL
@@ -99,10 +99,10 @@
         SECONDARY_LAYER {
             display-name = "secondary_layer";
             bindings = <
-&kp NUMBER_1      &kp PAGE_UP        &kp UP    &kp PAGE_DOWN  &kp HOME                     &kp PERIOD        &kp N7             &kp N8  &kp N9    &kp PLUS
-&kp NUMBER_6      &kp LEFT           &kp DOWN  &kp RIGHT      &kp END                      &trans            &kp N4             &kp N5  &kp N6    &kp MINUS
+&kp QUESTION      &kp PAGE_UP        &kp UP    &kp PAGE_DOWN  &kp HOME                     &kp PERIOD        &kp N7             &kp N8  &kp N9    &kp PLUS
+&kp EQUAL         &kp LEFT           &kp DOWN  &kp RIGHT      &kp END                      &trans            &kp N4             &kp N5  &kp N6    &kp MINUS
 &kp F6            &kp F7             &kp F8    &kp F9         &kp K_MUTE                   &trans            &kp N1             &kp N2  &kp N3    &kp ASTERISK
-&trans            &trans             &trans    &trans         &trans      &trans  &kp DEL  &trans            &trans             &kp N0  &kp NUBS  &kp SLASH
+&trans            &trans             &trans    &trans         &trans      &trans  &kp DEL  &trans            &trans             &kp N0  &kp DLLR  &kp PRCNT
                   &trans             &trans    &trans         &trans      &trans  &trans   &trans            &trans             &trans  &trans
 &trans            &trans             &trans                                                                                     &trans  &trans    &trans
 &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans    &trans         &trans                       &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans  &trans    &trans
@@ -112,13 +112,13 @@
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN    &kp HASH      &kp DOLLAR            &kp PERCENT                            &kp PAGE_UP    &kp HOME  &kp UP_ARROW    &kp END    &kp PRINTSCREEN
-&kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                  &kp PAGE_DOWN  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp SCROLLLOCK
-&kp GRAVE        &kp SQT        &kp SEMI      &kp LEFT_BRACKET      &kp RIGHT_BRACKET                      &trans         &mkp MB4  &trans          &mkp MB5   &kp PAUSE_BREAK
-&trans           &trans         &trans        &trans                &trans                 &trans  &trans  &trans         &trans    &trans          &trans     &trans
-                 &trans         &trans        &trans                &trans                 &trans  &trans  &trans         &trans    &trans          &trans
-&trans           &trans         &trans                                                                                              &trans          &trans     &trans
-&trans           &trans         &trans        &trans                &trans                                 &trans         &trans    &trans          &trans     &trans
+&kp QUESTION  &kp PIPE       &kp UNDERSCORE  &kp LPAR  &kp RPAR                  &kp PAGE_UP    &kp HOME  &kp UP_ARROW    &kp END    &kp PRINTSCREEN
+&kp EQUAL     &kp AMPERSAND  &kp AT_SIGN     &kp LBKT  &kp RBKT                  &kp PAGE_DOWN  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp HASH
+&kp GRAVE     &kp SQT        &kp CARET       &kp LBRC  &kp RBRC                  &kp SQT        &kp DQT   &kp AMPS        &kp DLLR   &kp EXCL
+&kp SLASH     &kp BACKSLASH  &trans          &trans    &trans    &trans  &trans  &trans         &trans    &kp TILDE       &kp PIPE   &trans
+              &trans         &trans          &trans    &trans    &trans  &trans  &trans         &trans    &trans          &trans
+&trans        &trans         &trans                                                                       &trans          &trans     &trans
+&trans        &trans         &trans          &trans    &trans                    &trans         &trans    &trans          &trans     &trans
             >;
         };
 
