@@ -86,7 +86,7 @@
         DEFAULT_LAYER {
             display-name = "Default";
             bindings = <
-&kp Q              &kp L      &kp U         &kp R           &kp T                                                       &kp F      &kp W     &kp R              &kp Y           &kp P
+&kp Q              &kp L      &kp U         &kp COMMA       &kp PERIOD                                                  &kp F      &kp W     &kp R              &kp Y           &kp P
 &mt LCTRL E        &kp I      &kp A         &kp O           &kp MINUS                                                   &kp K      &kp T     &kp N              &kp S           &kp H
 &mt2 LEFT_SHIFT Z  &kp X      &kp C         &kp V           &kp SEMICOLON                                               &kp G      &kp D     &kp M              &kp J           &kp B
 &kp LCTRL          &kp LWIN   &kp LEFT_ALT  &lt 1 LEFT_ALT  &kp LANG2      &mt LEFT_SHIFT SPACE  &mt RIGHT_SHIFT SPACE  &kp LANG1  &mo 2     &kp RIGHT_CONTROL  &kp LANGUAGE_1  &kp RIGHT_SHIFT
