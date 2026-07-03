@@ -72,11 +72,16 @@
             layers = <0>;
         };
 
-        COMBO_ET {
-            bindings = <&kp ENTER>;
+        COMBO_Ln1 {
+            bindings = <&kp LANG1>;
             key-positions = <16 17>;
             timeout-ms = <40>;
             layers = <0>;
+        };
+
+        COMBO_Ln2 {
+            bindings = <&kp LANG2>;
+            key-positions = <13 12>;
         };
     };
 
@@ -86,26 +91,26 @@
         DEFAULT_LAYER {
             display-name = "Default";
             bindings = <
-&kp Q              &kp L      &kp U         &kp COMMA       &kp PERIOD                                                  &kp F      &kp W     &kp R              &kp Y           &kp P
-&mt LCTRL E        &kp I      &kp A         &kp O           &kp MINUS                                                   &kp K      &kp T     &kp N              &kp S           &kp H
-&mt2 LEFT_SHIFT Z  &kp X      &kp C         &kp V           &kp SEMICOLON                                               &kp G      &kp D     &kp M              &kp J           &kp B
-&kp LCTRL          &kp LWIN   &kp LEFT_ALT  &lt 1 LEFT_ALT  &kp LANG2      &mt LEFT_SHIFT SPACE  &mt RIGHT_SHIFT SPACE  &kp LANG1  &mo 2     &kp RIGHT_CONTROL  &kp LANGUAGE_1  &kp RIGHT_SHIFT
-                   &none      &kp RIGHT     &kp DOWN        &kp LEFT       &kp UP                &kp UP                 &kp LEFT   &kp DOWN  &kp RIGHT          &none
-&mkp LCLK          &mkp RCLK  &mkp MCLK                                                                                                      &mkp LCLK          &mkp RCLK       &mkp MCLK
-&mkp MB4           &mkp MB5   &kp LG(TAB)   &kp LG(D)       &kp LCTRL                                                   &mkp MB4   &mkp MB5  &kp LG(TAB)        &kp LG(D)       &kp LCTRL
+&kp Q              &kp L      &kp U           &kp COMMA    &kp PERIOD                                                  &kp F      &kp W        &kp R              &kp Y      &kp P
+&mt LCTRL E        &kp I      &mt LEFT_ALT A  &mt LCTRL O  &kp MINUS                                                   &kp K      &mt RCTRL T  &mt RCTRL N        &kp S      &kp H
+&mt2 LEFT_SHIFT Z  &kp X      &kp C           &kp V        &kp SEMICOLON                                               &kp G      &kp D        &kp M              &kp J      &kp B
+&kp LCTRL          &kp LWIN   &kp LEFT_ALT    &mo 1        &kp BACKSPACE  &mt LEFT_SHIFT SPACE  &mt RIGHT_SHIFT SPACE  &kp ENTER  &mo 2        &kp RIGHT_CONTROL  &kp AT     &kp RIGHT_SHIFT
+                   &none      &kp RIGHT       &kp DOWN     &kp LEFT       &kp UP                &kp UP                 &kp LEFT   &kp DOWN     &kp RIGHT          &none
+&mkp LCLK          &mkp RCLK  &mkp MCLK                                                                                                        &mkp LCLK          &mkp RCLK  &mkp MCLK
+&mkp MB4           &mkp MB5   &kp LG(TAB)     &kp LG(D)    &kp LCTRL                                                   &mkp MB4   &mkp MB5     &kp LG(TAB)        &kp LG(D)  &kp LCTRL
             >;
         };
 
         SECONDARY_LAYER {
             display-name = "secondary_layer";
             bindings = <
-&kp QUESTION      &kp PAGE_UP        &kp UP    &kp PAGE_DOWN  &kp HOME                     &kp PERIOD        &kp N7             &kp N8  &kp N9    &kp PLUS
-&kp EQUAL         &kp LEFT           &kp DOWN  &kp RIGHT      &kp END                      &trans            &kp N4             &kp N5  &kp N6    &kp MINUS
-&kp F6            &kp F7             &kp F8    &kp F9         &kp K_MUTE                   &trans            &kp N1             &kp N2  &kp N3    &kp ASTERISK
-&trans            &trans             &trans    &trans         &trans      &trans  &kp DEL  &trans            &trans             &kp N0  &kp DLLR  &kp PRCNT
-                  &trans             &trans    &trans         &trans      &trans  &trans   &trans            &trans             &trans  &trans
-&trans            &trans             &trans                                                                                     &trans  &trans    &trans
-&kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans    &trans         &trans                       &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans  &trans    &trans
+&kp QUESTION      &kp PAGE_UP        &kp UP    &kp PAGE_DOWN  &kp HOME                    &kp PERIOD        &kp N7             &kp N8  &kp N9     &kp PLUS
+&trans            &kp LEFT           &kp DOWN  &kp RIGHT      &kp END                     &kp COMMA         &kp N4             &kp N5  &kp N6     &kp MINUS
+&trans            &trans             &trans    &trans         &kp K_MUTE                  &kp EQUAL         &kp N1             &kp N2  &kp N3     &kp ASTERISK
+&trans            &trans             &trans    &trans         &trans      &trans  &trans  &trans            &trans             &kp N0  &kp PRCNT  &kp FSLH
+                  &trans             &trans    &trans         &trans      &trans  &trans  &trans            &trans             &trans  &trans
+&trans            &trans             &trans                                                                                    &trans  &trans     &trans
+&kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans    &trans         &trans                      &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans  &trans     &trans
             >;
         };
 
