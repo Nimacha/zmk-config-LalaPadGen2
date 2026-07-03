@@ -119,7 +119,7 @@
             bindings = <
 &kp QUESTION   &kp LS(BACKSLASH)  &kp LS(MINUS)    &kp LS(N8)        &kp LS(N9)                             &kp PAGE_UP    &kp HOME  &kp UP_ARROW    &kp END    &kp PRINTSCREEN
 &kp LS(MINUS)  &kp CARET          &kp LS(AT_SIGN)  &kp LEFT_BRACKET  &kp LS(RIGHT_BRACKET)                  &kp PAGE_DOWN  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp HASH
-&kp GRAVE      &kp SQT            &kp CARET        &kp RIGHT_BRACE   &kp PIPE                               &kp SQT        &kp DQT   &kp AMPS        &kp DLLR   &kp EXCL
+&kp AMPERSAND  &kp APOSTROPHE     &kp CARET        &kp RIGHT_BRACE   &kp PIPE                               &kp SLASH      &kp DQT   &kp AMPS        &kp DLLR   &kp EXCL
 &kp SLASH      &kp BACKSLASH      &trans           &trans            &trans                 &trans  &trans  &trans         &trans    &kp TILDE       &kp PIPE   &trans
                &trans             &trans           &trans            &trans                 &trans  &trans  &trans         &trans    &trans          &trans
 &trans         &trans             &trans                                                                                             &trans          &trans     &trans
