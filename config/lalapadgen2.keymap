@@ -127,13 +127,13 @@
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&kp EXCL       &kp LS(INT_YEN)    &kp LS(KP_SUBTRACT)  &kp LS(N8)       &kp LS(N9)                     &kp PAGE_UP    &kp HOME   &kp UP_ARROW    &kp END       &kp PRINTSCREEN
-&kp LS(MINUS)  &kp PLUS           &kp LEFT_BRACKET     &kp RBKT         &kp BACKSLASH                  &kp PAGE_DOWN  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT     &kp HASH
-&kp AMPERSAND  &kp LS(AT_SIGN)    &kp CARET            &kp RIGHT_BRACE  &kp PIPE                       &kp COLON      &kp MINUS  &kp DQT         &kp SLASH     &kp QUESTION
-&kp SLASH      &kp LS(SEMICOLON)  &kp SEMICOLON        &trans           &trans         &trans  &trans  &trans         &trans     &kp UNDER       &kp LS(SEMI)  &kp DOLLAR
-               &trans             &trans               &trans           &trans         &trans  &trans  &trans         &trans     &trans          &trans
-&trans         &trans             &trans                                                                                         &trans          &trans        &trans
-&trans         &trans             &trans               &trans           &trans                         &trans         &trans     &trans          &trans        &trans
+&kp EXCL       &kp LS(INT_YEN)   &kp LS(INT1)      &kp LS(N8)       &kp LS(N9)                     &kp PAGE_UP    &kp HOME   &kp UP_ARROW    &kp END      &kp PRINTSCREEN
+&kp LS(MINUS)  &kp PLUS          &kp LEFT_BRACKET  &kp RBKT         &kp BACKSLASH                  &kp PAGE_DOWN  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT    &kp HASH
+&kp AMPERSAND  &kp LS(AT_SIGN)   &kp CARET         &kp RIGHT_BRACE  &kp PIPE                       &kp COLON      &kp MINUS  &kp DQT         &kp SLASH    &kp QUESTION
+&kp SLASH      &kp SINGLE_QUOTE  &kp SEMICOLON     &trans           &trans         &trans  &trans  &trans         &trans     &kp UNDER       &kp PERCENT  &kp DOLLAR
+               &trans            &trans            &trans           &trans         &trans  &trans  &trans         &trans     &trans          &trans
+&trans         &trans            &trans                                                                                      &trans          &trans       &trans
+&trans         &trans            &trans            &trans           &trans                         &trans         &trans     &trans          &trans       &trans
             >;
         };
 
